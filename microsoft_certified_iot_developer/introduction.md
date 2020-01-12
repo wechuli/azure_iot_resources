@@ -51,6 +51,30 @@ Here are some of the functions a back-end service can provide.
 - Provisioning devices and control which devices can connect to your infrastructure.
 - Control the state of your devices and monitor their activities.
 
+Azure IoT enables you to:
+
+- Reimagine your business processes by reducing data silos between Customers, Operations, Products/Assets, and Employees.
+
+- Deploy managed software as a service for IoT with minimal cloud expertise (SaaS solutions) using Azure IoT Central.
+
+- Customize industry-specific IoT solutions for common IoT scenarios - PaaS solutions through Azure IoT solution accelerators.
+
+- Extend intelligence from the cloud to your edge devices using Azure IoT Edge.
+
+- Connect, monitor, and control billions of IoT assets using Azure IoT Hub.
+
+- Create a digital model of your physical space or assets using Azure Digital Twins.
+
+- Explore and gain insights from time-series IoT data in real-time using Azure Time Series Insights.
+
+- Build and connect highly secure MCU-powered devices using Azure Sphere.
+
+- Provide geospatial context to data using Azure Maps.
+
+- Navigate the art of the possible beyond traditional applications like predictive maintenance.
+
+- Generate an automated feedback loop between the device and the cloud to increase the solution efficiency.
+
 ## IoT Services
 
 There are several IoT-related services in Azure.

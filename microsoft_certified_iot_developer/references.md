@@ -7,3 +7,6 @@
 
 ## Security
 - https://docs.microsoft.com/en-us/azure/iot-fundamentals/security-recommendations
+
+## Hands on Labs
+- 
