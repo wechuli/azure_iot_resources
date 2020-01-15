@@ -1,0 +1,29 @@
+# add the Microsoft Azure IoT Extension for Azure CLI
+az extension add --name azure-cli-iot-ext
+
+# create a resource book
+az group create --name IoTCertResourceGroup --location eastus
+
+# list resources
+az group list
+
+# create an iot hub
+
+az iot hub create --resource-group IoTCertResourceGroup --name wechuliiothub --partition-count 2
+
+# provision a device
+
+az iot hub device-identity create --device-id simDevice --hub-name wechuliiothub
+
+# simulate the device
+
+
+az iot device simulate -d simDevice -n wechuliiothub
+
+# monitor iot hub events
+
+az iot hub monitor-events --output table --hub-name wechuliiothub
+
+# Send a cloud-to-device message from the IoT hub to the simulated device
+
+az iot device c2d-message send -d simDevice --data "Hello World" --props "key0=value0;key1=value1" -n wechuliiothub
