@@ -9,6 +9,7 @@
   - https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-node-node-twin-getstarted
   - https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-csharp-csharp-twin-getstarted
 - configure IoT Hub tier and scaling
+    - https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-scaling
 
 ## Build device messaging and communication
 
