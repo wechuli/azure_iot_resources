@@ -4,7 +4,7 @@
 
 - create an IoT Hub - **done**
 - register a device - **done**
-- configure a device twin
+- configure a device twin - **done**
   - https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-device-twins
   - https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-node-node-twin-getstarted
   - https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-csharp-csharp-twin-getstarted
