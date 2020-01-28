@@ -1,0 +1,10 @@
+{
+  "name": "reportconnectivity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "azure-iot-device": "^1.12.2",
+    "azure-iot-device-mqtt": "^1.11.2"
+  }
+}
