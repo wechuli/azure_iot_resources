@@ -13,7 +13,11 @@ az iot hub create --resource-group IoTCertResourceGroup --name wechuliiothub --p
 
 # provision a device
 
-az iot hub device-identity create --device-id simDevice --hub-name wechuliiothub
+az iot hub device-identity create --device-id simDevice --hub-name wechub
+
+# retrive device connection string
+
+az iot hub device-identity show-connection-string --device-id myDeviceId --hub-name wechub -o table
 
 # simulate the device
 
